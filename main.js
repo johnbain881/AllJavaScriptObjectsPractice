@@ -67,6 +67,13 @@ const nashvilleSoftwareSchool = {
 console.log(nashvilleSoftwareSchool.instructors.partTime, nashvilleSoftwareSchool.instructors.fullTime)
 
 
+for (let i = 0; i < nashvilleSoftwareSchool.instructors.partTime.length; i++) {
+    console.log(nashvilleSoftwareSchool.instructors.partTime[i])
+}
+for (let i = 0; i < nashvilleSoftwareSchool.instructors.fullTime.length; i++) {
+    console.log(nashvilleSoftwareSchool.instructors.fullTime[i])
+}
+
 
 // Lightning Exercise 2: Output only Andy and Zoe in the console.
 console.log(nashvilleSoftwareSchool.instructors.fullTime[4], nashvilleSoftwareSchool.instructors.partTime[0])
